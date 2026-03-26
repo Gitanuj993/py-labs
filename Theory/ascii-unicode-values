@@ -1,0 +1,34 @@
+Welcome AT
+
+in this file we know or gather information about ASCII code and UNICODE
+
+first we start with the ASCII or American standards for information interchange
+in this various characters , numbers , symbols and alphabets are denoted with a numeric address
+limited charecters 0 to 127
+ascii : https://www.ascii-code.com/
+take more information from above
+take more information from above
+
+#capital latin letters
+A to Z in ascii is 65 to 90
+a to z in ascii is 97 to 122
+0 to 9 in ascii is 48 to 57
+[ to ` in ascii is 91 to 96
+
+ascii only has 128 character so far
+
+while unicode is universaly information interchange
+
+So,
+Basically now ascii is became subset of unicode
+unicode come in utf-8
+                utf-12
+                utf-16
+Out of which utf-8 is widely used specially 90% development
+unicode has 1 lakh 40 thousands characters as of 2026 on the calendar
+
+reference : https://www.unicode.org/charts/
+            https://unicode-explorer.com/b/0100
+
+
+programs discussed about this code in :  lab13
