@@ -7,15 +7,15 @@ Aim : To convert char to ascii code and vice-versa
 
 def char2ascii_(char) : # what if we put more than one character in char
     ascii_code = ord(char)
-    print(f" Code of charecter is {ascii_code}")
+    print(f" Code of character is {ascii_code}")
 
 def ascii2char_(code) :
     char = chr(code)
-    print(f" charchter of {code} is '{char}' ")
+    print(f" character of {code} is '{char}' ")
 
     # we should use decision making
     while True :
-        print(" Choose Carefully \n 1. ascii to charecter \n 2. char to ascii ")
+        print(" Choose Carefully \n 1. ascii to character \n 2. char to ascii ")
         user_input = int(input("Enter you choice : "))
         if ( user_input == 1) :
             input_code = int(input("Enter code to convert it into char : "))
@@ -26,4 +26,7 @@ def ascii2char_(code) :
             char2ascii_(input_char)
         else :
             print(" Choose wisely !")
-        break
+        user_input2=str(input("Do you want to continue (y/n) : "))
+        if ( user_input2 == 'y' ):
+             continue 
+        else : break
