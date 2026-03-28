@@ -1,0 +1,5 @@
+Welcome AT
+>> use of random standard library
+>> In this version questions are asked from the user in random manner like each time user take the quize , questions are randomly choosen for them
+issue : using random python standard library , we first take the questions in a unique  list then ask questions from taking the list 
+>> issue is fixed
