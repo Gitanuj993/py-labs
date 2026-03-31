@@ -3,6 +3,8 @@ Welcome AT
 lab : project 1 ver3
 aim :	asking unique questions randomly from the user  and no question should repeat
 """
+from test import total_q
+
 #list of questions to be asked
 questions = [
     {
@@ -61,26 +63,34 @@ questions = [
 #importing python standard random library
 import random
 
-total_q  = int(input("Enter number of question you want to answer : "))
+# total_q  = int(input("Enter number of question you want to answer : "))
+total_q = 9
 arr = []
+print(f" elements in array is  : {arr}")
 # adding question into the list 
 while ( len(arr) < total_q) :
-	num = random.randint(1,10)
+	num = random.randint(0,9)
 	arr.append(num)
 	arr = set(arr) 
 	arr = list(arr)
+
 # score of the user 
 score = 0
+print(f" elements in list is : {arr}")
 for r in arr :
 	print("---------")
 	print(questions[r]["question"])
 	print(questions[r]["options"])
 	user_ans = input("Enter your choice :	").upper()
+
 	if ( user_ans == questions[r]["ans"]) :
 		score+=1
 		
-		
-print(f" your score is {score } out of {total_q} questions ")
+if ( score == total_q):
+    print(" You answered all the questions perfectly !")
+
+else:
+    print(f" your score is {score } out of {total_q} questions ")
 
 #program-end
 

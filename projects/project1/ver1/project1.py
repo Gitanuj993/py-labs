@@ -31,6 +31,6 @@ for q in questions :
     else:
         negative+= 1
 
-print(f" Final result is  {score} \n you gave {score} right answers and {negative} answered wrong" )
+print(f" Final result is  {score} \n you gave {score} right answers and {negative}  wrong answered" )
 
 
