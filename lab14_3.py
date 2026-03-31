@@ -22,6 +22,15 @@ print(f" string to float conversion ")
 str1 = "123"
 str2float = float(str1)
 print(f" string 1 : {str1} type casted to float is : {str2float} type {type(str2float)}")
+str1 = "123.321"
+str2float = float(str1)
+print(f" string 1 : {str1} type casted to float is : {str2float} type {type(str2float)}")
+
+#what if we want to convert al123 to float
+str1 = "abc12"
+# str2float = float(str1)
+# # ValueError: could not convert string to float: 'abc12'
+# print(f" string 1 : {str1} type casted to float is : {str2float} type {type(str2float)}")
 
 
 
