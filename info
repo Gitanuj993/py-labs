@@ -1,3 +1,54 @@
 Welcome AT
 
 highest lab : lab19+
+Table of content py-labs
+
+
+
+
+
+
+
+
+
+
+lab20 :
+
+
+
+lab00 : general info about labs
+lab1 : introduction to Boolean data types
+lab2 : string data type
+lab3 : comments in python
+lab4 : input and print functions
+lab5 : variables and literals
+lab6 : calculate age based on birth year
+lab7 : module sys
+lab8 : - welcome  message -null
+lab9 : main function in python like c,cpp,java PyCharm vague
+lab10 : string
+lab11 : new line and separator
+lab12 : none data types
+lab13 : ascii , Unicode , utf-8,16,32
+lab14 : type conversion or type casting
+	1 - str to float
+	2 - Boolean
+	3 - float type conversion
+lab15 : intro to complex data type
+lab16 : errors in python
+lab17 : ensuring valid input from the user -null
+lab18 : operators in python
+	1 - arithematic
+	2 - moduls arithematic
+	3 - null
+	4
+
+	lab18_2. unary operators
+	_3 : comparision operator
+	edge cases
+lab19: some practice set from the :
+
+
+
+
+
