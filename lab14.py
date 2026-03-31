@@ -9,18 +9,18 @@ theory : to convert one data type into another data type
 #test -cases
 
 string = "10"
-pi = 3.14
+PI = 3.14
 
 # lest print the test cases onto the console 
 print(f" This is type of int-type conversion \n")
 print(f" string : {string} ")
-print(f" pi : {pi}	\n")
+print(f" pi : {PI}	\n")
 
 #lets convert test-cases into int data type
 
 num1 = int("10")
 num2 = int(string)
-num3 = int(pi)
+num3 = int(PI)
 
 # lets display what we converted
 print(f" num1 is :	{num1}")
@@ -75,6 +75,33 @@ test3 = str(test3)
 print(f" test 1 is :	{test1}")
 print(f" test 2 is :	{test2}")
 print(f" test 3 is :	{test3}\n")
+
+# lets convert int , float , string into bool data type
+print(" --> int , float and string into bool ")
+int = 12
+float = 23.0
+string = "happy"
+
+print(f" int : {int}")
+print(f" flaot  : {float}")
+print(f" string : {string}")
+
+print(f" ---->  thier bool formates")
+print(f" int to bool : {bool(int)}")
+print(f" flaot to bool  : {bool(float)}")
+print(f" string to bool : {bool(string)}")
+
+print(f" Special cases !")
+i = 0
+print(f" i = 0 in bool is {bool(i)}")
+i = 23
+print(f" i != 0 in bool is {bool(i)}")
+i = ""
+print(f" i = '' in bool is {bool(i)} ")
+i = " anything "
+print(f" i != '' in bool is {bool(i)} ")
+
+
 
 
 # complex data type conversion 
