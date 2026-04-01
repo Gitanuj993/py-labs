@@ -3,19 +3,8 @@ Welcome AT
 highest lab : lab19+
 Table of content py-labs
 
-
-
-
-
-
-
-
-
-
-lab20 :
-
-
-
+lab20 : string , and string slicing
+lab19 : practice set
 lab00 : general info about labs
 lab1 : introduction to Boolean data types
 lab2 : string data type
@@ -46,7 +35,7 @@ lab18 : operators in python
 	lab18_2. unary operators
 	_3 : comparision operator
 	edge cases
-lab19: some practice set from the :
+lab19: some practice set questions 
 
 
 
