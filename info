@@ -1,8 +1,9 @@
+
 Welcome AT
-
-highest lab : lab19+
+highest lab : lab20+
 Table of content py-labs
-
+----------------------=----+----------------=-------------
+lab20_p1 in the py-labs/projects/pallindrome 
 lab20 : string , and string slicing
 lab19 : practice set
 lab00 : general info about labs
@@ -34,6 +35,7 @@ lab18 : operators in python
 
 	lab18_2. unary operators
 	_3 : comparision operator
+	_4 : logical operator
 	edge cases
 lab19: some practice set questions 
 
