@@ -30,12 +30,13 @@ lab17 : ensuring valid input from the user -null
 lab18 : operators in python
 	1 - arithematic
 	2 - moduls arithematic
-	3 - null
+- logical opeators null update data recovered 
 	4
 
 	lab18_2. unary operators
 	_3 : comparision operator
 	_4 : logical operator
+	lab18_5.py : relational operators
 	edge cases
 lab19: some practice set questions 
 
