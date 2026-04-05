@@ -7,9 +7,9 @@ In this projects or labs we will discuss various projects and things related to 
 <a href="https://mock-web-host.vercel.app"/>
 
 
-![Py-labs's GitHub stats](https://github-status-gitanuj993.vercel.app/api?username=Gitanuj993&show_icons=true&theme=radical)
+![Py-labs's GitHub stats](https://github-stats-exe.vercel.app//api?username=Gitanuj993&show_icons=true&theme=radical)
 
 
 #here is the details about the repo ! 
-![ Py-labs's GitHub stats](https://github-status-gitanuj993.vercel.app/api?username=Gitanuj993&show_icons=true&theme=radical)
+![ Py-labs's GitHub stats](https://github-stats-exe.vercel.app//api?username=Gitanuj993&show_icons=true&theme=radical)
  
