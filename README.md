@@ -3,6 +3,13 @@ Welcome AT !
 
 In this projects or labs we will discuss various projects and things related to the python and python Libraries.
 
-here is the details about the repo ! 
-![ Py-labs's GitHub stats](https://github-readme-stats.vercel.app/api?username=Gitanuj993&show_icons=true&theme=radical)
+![Repo](https://img.shields.io/badge/Repo-FF69B4?style=for-the-badge&logo=github&logoColor=white)
+<a href="https://mock-web-host.vercel.app"/>
+
+
+![Py-labs's GitHub stats](https://github-status-gitanuj993.vercel.app/api?username=Gitanuj993&show_icons=true&theme=radical)
+
+
+#here is the details about the repo ! 
+![ Py-labs's GitHub stats](https://github-status-gitanuj993.vercel.app/api?username=Gitanuj993&show_icons=true&theme=radical)
  
