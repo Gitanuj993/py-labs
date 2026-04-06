@@ -1,6 +1,6 @@
 Welcome AT !
-> [!Note]
-> <a href="https://discord.gg/3N3YZwBF8"><img src="https://img.shields.io/badge/Discord-FFB6C1?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+> [!note]
+> <a href="https://discord.gg/fw7DMy5yWs"><img src="https://img.shields.io/badge/Discord-FFB6C1?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
 </a>
 
 In this projects or labs we will discuss various projects and things related to the python and python Libraries.
