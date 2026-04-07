@@ -1,6 +1,8 @@
 # Python program to find the total number of prime and composite number upto n numbers .
 
 n = int(input("Enter range upto n : "))
+if n == 1 :
+    print(" 1 is neither  ") 
 # counter to count prime_numbers
 count_prime = 0
 #counter to count composite numbers

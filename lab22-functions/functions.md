@@ -1,6 +1,10 @@
 # Functions
 
+<p>
+Functions is perform a special task which can be reused in the program , 
 
+use of functions supports code reusability
+</p>
 
 
 
