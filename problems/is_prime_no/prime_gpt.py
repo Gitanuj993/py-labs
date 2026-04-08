@@ -1,5 +1,7 @@
-import timeit
+import timeit # this is optional
+# actual funcitons
 def prime() :
+    # Taking user input from the user
     n = int(input("Enter range upto n : "))
 
     # initially assume all numbers are prime
@@ -24,5 +26,6 @@ def prime() :
     print(f"Total number of composite numbers is: {count_composite}")
 
 
+# To measure execution time of code , code copied from chatGpt
 execution_time = timeit.timeit(stmt="prime()", globals=globals(), number=1)
 print(f"Execution time: {execution_time:.6f} seconds")
