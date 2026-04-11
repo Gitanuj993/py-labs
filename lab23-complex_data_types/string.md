@@ -147,6 +147,38 @@ print(var[: :]) # by defalut
 
 
 
+### String concatentation
+
+
+
+
+
+### String Repetition
+
+
+
+### in , not in , membership operators in python
+
+- t13.py
+- t12.py
+
+
+### comment in markdown files
+"[//]: # ()"
+
+[//]: # (###  ) here is some examples 
+[//]: # () comment
+
+
+
+### Formated string
+
+```pycon
+name = "AT"
+
+```
+
+
 
 
 
