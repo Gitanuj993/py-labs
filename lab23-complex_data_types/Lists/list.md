@@ -27,5 +27,20 @@ print(myList)
 
 ### List Comprehension
 
+```pycon
+marks  = [ 10 , 30 , 20 ]
+# increase marks by 5
+newMarks = [ x + 5 for x in marks]
+
+```
 - using list constructor
 - using list syntax
+
+### Operators of list
+1. Indexing
+2. Slicing
+3. Concatenation
+4. Repetition
+5. Membership operator , in , not in
+6. support for-loop
+
