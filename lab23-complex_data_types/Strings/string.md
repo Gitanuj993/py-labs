@@ -2,6 +2,15 @@
 
 1. strings are not primitive 
 
+### Table of content
+1. indexing
+2. Slicing
+3. Conacatenation
+4. Repetation
+5. in , not in membership
+6. for loop iteration
+7. String f- Formating
+
 
 
 
