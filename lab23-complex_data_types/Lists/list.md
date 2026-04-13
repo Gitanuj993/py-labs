@@ -25,3 +25,7 @@ print(myList)
 4. 
 
 
+### List Comprehension
+
+- using list constructor
+- using list syntax

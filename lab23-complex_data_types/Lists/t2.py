@@ -1,8 +1,8 @@
 # aim : Initializing an empty list
 
-list1 = []
+list1 = [] # empty list
 
-print(f"list is : {list1}")
+print(f"list is : {list1}") # empty list is denoted by []
 
 #inserting an element in a empty list : using a built-in class function
 
