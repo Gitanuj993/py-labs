@@ -4,3 +4,4 @@ project1 : quize program
 project2 : encrypt / decrypt utf-16 unicode
 project3 : 
 pallindrome : mini project  about pallingrome numbers and strings
+project4 : count consonents ,vowels , numbers , special symbols and spacess
