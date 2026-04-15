@@ -62,4 +62,9 @@ print(list1[0])
 2. list.index(<object>) : it return the index of the object
 3. list.count(x) : x is an object 
 4. list.sort() : sort the interable using Tim sort ( insertion + Merge sort)
-5. 
+
+
+
+### List of list : Nested list
+
+`` list 1 = [ [] , [[]] , [[[[]]]]]``
