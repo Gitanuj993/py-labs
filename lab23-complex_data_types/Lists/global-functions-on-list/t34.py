@@ -10,7 +10,7 @@ list1 = [1,  # 1 is not iterable
 # Without  using isinstances
 
 for i in list1 :
-    if (type(i) == type(1.0) or (type(i) == type(1))) :
+    if ((type(i) == type(1.0)) or (type(i) == type(1))) :
         print(i)
     else :
         for j in i :
