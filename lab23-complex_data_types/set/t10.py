@@ -9,6 +9,8 @@ print(f"set2 : {set2}")
 list1 = sorted(set2)
 print(f"sorted list of set2 : {list1}")
 set3 = set(list1)
-print(f" set 3 is : {set3}") # hashing value # output from
+print(f"set 3 is : {set3}") # hashing value # output from
 
 # constructor or using explicit type conversion
+# print(f" reversed : { reversed(set3)}")
+# TypeError: 'set' object is not reversible

@@ -71,3 +71,29 @@ In above case set 1 be the superset of set2  , set1 > set2 and set2 < set1
 3. min()
 4. sum() of numeric elements
 5. sorted()
+
+
+### Functions for set class
+
+1. .add(x) : adds an elements into the set , add one  element
+2. .update(<iterable>) #no parameters , add many elements
+3. .remove(x)
+4. .pop() : remove random element , do not throw errro
+5. .discard(x) : it takes 1 arg ,  , and doesn't raise any error if element not found
+6. .clear() : it will clear all the elements from the set
+
+### Set operations between two sets , s1 and s2
+1. s1.union(s2)
+2. s1.intersection(s2)
+3. s1.symmetric_difference(s2)
+4. s1.difference(s2)
+> functions are slower than operators
+
+> elemnts which are already in the set will be ignored
+> 
+#### check and copmare between two sets 
+> s1 and s2
+1. s1.issubset(s2)
+2. s1.issuperset(s2)
+3. s1.isdisjoint(s2)
+4. 
