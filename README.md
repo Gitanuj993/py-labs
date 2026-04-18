@@ -2,7 +2,7 @@
 
 <p> <h3> Let's learn and explore programming and its various use cases,
 python is one of the popular general purpose programming languages,  
-It is widely used for its simple syntax and massive collection of libraries and modules amid run on top of c amd c++ !
+It is widely used for its simple syntax and massive collection of libraries and modules amid run on top of c and c++ !
 </h3></p>
 
 <div>
