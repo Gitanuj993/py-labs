@@ -96,4 +96,10 @@ In above case set 1 be the superset of set2  , set1 > set2 and set2 < set1
 1. s1.issubset(s2)
 2. s1.issuperset(s2)
 3. s1.isdisjoint(s2)
-4. 
+
+
+### Frozen set 
+> Frozenset are the immutable set which is defined in <class 'frozenset'> all the objects are immutable thus hashable,
+
+> Thus we can use it inside a set like a set inside a set or nested set or set of set 
+ 
