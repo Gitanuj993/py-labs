@@ -39,8 +39,30 @@ print(dict1["C"])
 ## Global functions 
 `` my_dict1 = { 1 : "A" , 2 : "B" , "C" : 3}``
 1. len(my_dict1) : return rate 
-2. 
+2. any() : Truthy OR gate type
+3. all() : Falsy AND gate type
+4. enumerate()
+5. zip()
 
+> using any(dict1.values())
 
+## Built in function of dict in
+#### See data in the dict
+1. my_dict1.values()
+2. my_dict1.keys()
+3. my_dict1.items()
+#### return data from the dict
+1. my_dict1.get(x) : return values of key x , return None if key not found
+2. my_dict1.setdefault(<key> , <value>)
+3. my_dict1.pop(x) : 
+4. my_dict1.popitem() : one item removed from the dictionary
 
-## Built in function of dict in 
+#### update the dict
+1. my_dict1.update(<x>) : x : list of tuples( only two elements) , tuple of tuples ( only two elements) 
+2. mu_dict.fromkeys()
+
+### Nested Dictionary
+> dictionary inside dict is termed as nested dictionary
+
+1. values can be dictionary
+2. keys can not has dictionary as dict is of immutable data type , part of dict keys are immutable
