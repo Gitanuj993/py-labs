@@ -11,5 +11,5 @@ obj1 = Customer(a,b,c)
 
 # Error case try this
 # calling default constructor , default constructor is not declared yet
-obj2 = Customer()
+# obj2 = Customer()
 # TypeError: Customer.__init__() missing 3 required positional arguments: 'a', 'b', and 'c'
