@@ -74,15 +74,18 @@ def __init__(self) :
 ? Who carry the actual value : 
 reference variable v/s variables { Actual real time storage }
 reference variables holds the address of actual variable.
+
 ### Types of variable : level 2
 > named storge location , variable name known as Domain Name
 1. Instance variable : 
 > variables related to the instance are called instance variables
 2. Class variable  : also called static variable .
-> variables related to the class are known as static variable
+> variables related to the class are known as static variable 
+3. Local variable
+4. Global variable
 
 #### Instance Variable
-1. Instance variables are defined inside special method called '__init__' also known as constructor. <br>
+1. Instance variables are defined inside special method called '__init__' also known as constructor. using 'self' <br> ``self.var_name``
 2. instance variables belongs to the specific object.
 ````python
 def __init__(self,name,id) :
@@ -96,7 +99,7 @@ def __init__(self,name,id) :
 ```python
 class Student:
     def __init__(self, name, age):
-        self.name = name      # instance variable
+        self.name = name      # instance variable d
         self.age = age        # instance variable
 
 s1 = Student("Rahul", 20)
@@ -106,4 +109,50 @@ print(s1.name)  # Rahul
 print(s2.name)  # Anita
 
 ```
-6. instance variables can be declared inside '__init__' function and can be accessed inside 'init' or outside 'init' using 'self' instance 
+6. instance variables can be declared inside '__init__' function and can be accessed inside 'init' or outside 'init' using 'self' instance.
+7. We can declare any number of instance varialbes.
+8. memory allocated to instance variable depends on number of objects.
+
+### class variables  or static variable
+1. class variables are common for all objects.
+2. class variables declared inside class but initialized outside class.
+3. class variables can be accessed using className , self or Object.
+4. Only one copy of memory is shared among all objects for the static variable.
+```python
+# class
+class Car:
+    wheels = 4  # class variable
+
+    def __init__(self, brand):
+        self.brand = brand  # instance variable
+
+car1 = Car("Toyota") # object declaration
+car2 = Car("Honda")
+
+print(car1.wheels)  # 4 # class variable accessed using objectName
+print(car2.wheels)  # 4
+print(Car.wheels) #  class variable accessed using class name
+```
+
+### local variables 
+1. local variables :  variables which are accessed within a scope ,
+2. local variables defined in the functions
+3. local variables not accessible outside class
+
+### global variables 
+1. Those variables which are declared inside main function.
+2. variables accessible throughout program
+
+
+## Constructor 
+1. Constructor is a special method which is initialized when object of the class is declared.
+2. instance variables are declared inside constructor.
+3. python's constructor's name is not same as className
+> In python constructor special function always named as '__init__' <br>
+> python provides a fixed constructor name called '__init(self)' <br>
+> constructor of the class automatically called when object of the class is created or initialized.
+4. Constructor's task is to initialize the instances variables for different objects.
+
+## Types of Constructors
+1. Default constructors : Without parameters
+2. Default Argument constructors , with default parameters
