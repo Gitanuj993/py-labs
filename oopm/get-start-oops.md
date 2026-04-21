@@ -156,3 +156,38 @@ print(Car.wheels) #  class variable accessed using class name
 ## Types of Constructors
 1. Default constructors : Without parameters
 2. Default Argument constructors , with default parameters
+
+> How many constructors we can declare and use in a program ?
+
+## Constructor overloading : using more than 1 constructor in a program in python 
+> Early binding , static , function overloading parts of polymarphism
+### is python support constructor overloading
+> Python has interpreter it doesn't support compile time polymorphism.
+> <br> python do not have compiler.
+### Why need for constructor overloading, 
+
+
+## Methods : are the behavior and functionality of the objects
+### Types of methods in python
+1. Instance method
+2. class method
+3. static method
+
+## Instance methods
+1. Instance methods are used to access and modify object data 
+2. Instance method takes 'self' as a first parameter. 
+3. constructor and instance method both takes 'self' as a first parameter
+3.  Instance method will be invoked using object reference and dot operator.
+
+## Class methods
+1. class methods are used to modify class variables.
+2. class methods takes 'cls' as first para.
+3. class methods takes '@' decorator to define class method.
+
+## Static method
+
+## scopes
+
+## polymorphism
+
+## inheritance 
