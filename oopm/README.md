@@ -246,7 +246,96 @@ self.__a = 1
 <p> protected variables can access by derived classes or subclass </p>
 <p> private variables can be access and modified within the class</p>
 
+```text
 
-### polymorphism
+```
 
-## inheritance 
+> [!note]
+> In python we can delete objects and also their attributes
+
+
+## Destructores
+```text
+If no constructor is not defined explicitly then python interpreter run default constructor
+```
+0. Destructor is a special method which invoked when an object is about to be destroyed.
+1. default destructor is created using '__del__'
+2. default constructor run automatically .
+3. __del__ called when object is deleted. 
+4.  __del__ used to clean up code and free resources like file connection and database connections. # sql # file handling.
+```text
+Java build enterprise application , Myntra , Banking_solutions. sprint boot,  
+
+python can be used to make , desktop apps , AI , ML , Data Science , pandas, 
+security code 
+
+chatGPT is a Generative AI , can't book ticket , gives info,  
+Agentic AI ,
+
+
+
+```
+# Inheritance : Hierarchy of classes , extending class.
+```text
+
+using properties of existing class into another class is known as.
+
+super class : it is a existing class from which other classes copy or use properties and attributes of that class.
+
+super class is also know as 'Base class' , 'Parent class'.
+
+Sub Class : classes those inherit properties from the existing class, or from super class.
+sub class is also known as child class , and derived class.
+
+```
+### Realtionship
+1. has a relation : using objects of another class 
+2. is a relation :  if using properties of superclass using inheritance
+
+### Single inheritance 
+1. Superclass's attributes inherit by a single sub-class. s-s
+```text
+In Single level inheritance :
+
+if a class B inheriting properties of class A, then class A is called 'superclass' and extending class B is called 'sub-classb'
+
+```
+> [!note]
+> 'Object' is the default super-class of all classes defined in python. <br>
+> In java , java is a default super-class of all the classes. <br>
+> In c++ such concept doesn't exist.
+
+### Types of Inheritance : there are 5 types of inheritance in cpp
+1. Single Inheritance
+2. Multilevel Inheritance
+3. Multiple Inheritance
+4. Hierarchical Inheritance
+5. Hybrid Inheritance
+
+
+## Single Inheritance
+1. class 1 inheritance inherit property of only one superclass
+
+## Multi-level Inheritance
+1.  inheritance in which subclass has a subclass ,
+2. Multiple single inheritance 
+
+## Hierarchical Inheritance :
+1. Multiple subclasses of a superclass
+
+## Multiple Inheritance 
+1. Multiple superclasses of a subclas
+## Hybrid Inheritance
+1. use of more than 1 inheritance 
+
+```text
+What is the use of default constructor in python.
+it is used to initialise instance variables.
+
+we can add the instance variable even after __init__ or default constructor.
+```
+
+### super().
+1. it can call parent class method 
+2. it can call parent class constructor `` super().method()`` or `` super().__init__()``
+3. super(). only refer to direct superclass 
