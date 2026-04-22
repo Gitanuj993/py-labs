@@ -173,21 +173,80 @@ print(Car.wheels) #  class variable accessed using class name
 2. class method
 3. static method
 
-## Instance methods
-1. Instance methods are used to access and modify object data 
-2. Instance method takes 'self' as a first parameter. 
+### Instance methods
+```python
+
+```
+1. Instance methods are used to access and modify object data.  
+2. Instance method takes 'self' as a first parameter.. 
 3. constructor and instance method both takes 'self' as a first parameter
-3.  Instance method will be invoked using object reference and dot operator.
+4. Instance method will be only invoked using object reference with dot operator.
 
-## Class methods
-1. class methods are used to modify class variables.
-2. class methods takes 'cls' as first para.
-3. class methods takes '@' decorator to define class method.
+### Class methods
+```python
+class Order :
+   app : "IPT"
+   sub_discount = "40%"
+   def __init__(self,ord_id,level):
+      self.ord_id = ord_id
+      self.level = level
+    @classmethod
+    def show(cls):
+       print(Order.app,Order.sub_discount,sep=" ")
+       
+       
+s1 = Order(1,3)
+s1.show()
 
-## Static method
+```
+1. class methods are used to access and  modify class data .
+2. class methods takes 'cls' as first parameter
+3. 'cls' is object of class 
+4. class methods takes '@classmethod' decorator to define class method.
+5. behave like normal instance method but method belongs to the class not object. 
+6. 
 
-## scopes
+### Static method
+```python
+class H :
+   @staticmethod
+   def clgid_decorator(clg_id):
+      return clg_id > 1 and clg_id <= 999
 
-## polymorphism
+
+```
+1. static method is used when functionality of the class but doesn't need instance variables or class data.
+2. static method do not take parameters like 'self' , 'cls'
+3. declared using '@staticmethod'
+
+### Access Specifiers or Scope
+1. public , private , protected used by convention as actually public,private and protected are same.
+2.  in python, we just consider public access by all , private can access by only class itself and protected can only access by derived class and objects.
+3. Just like Constants in python , python doesn't support constants but for sake of simplicity or by convention we declare constant In capital letters.
+
+```python
+# public variables in python - class variable
+a = 1
+# protected variable in python - class variable
+_a = 1
+# private variable in python - class variable
+__a = 1
+
+
+# public instance variables , inside constructor
+self.a = 1
+
+# protected instance variables , inside constructor
+self._a = 1
+
+# protected instance variables inside constructor
+self.__a = 1
+```
+<p> public variables can be accessed outside class via objects and class.</p>
+<p> protected variables can access by derived classes or subclass </p>
+<p> private variables can be access and modified within the class</p>
+
+
+### polymorphism
 
 ## inheritance 
