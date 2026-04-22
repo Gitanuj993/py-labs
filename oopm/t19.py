@@ -27,3 +27,6 @@ if __name__ == "__main__" :
     s = Sub_class()
     s.method()
 
+    # what is s what if we print s ?
+    # print(s)
+
