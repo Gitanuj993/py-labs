@@ -46,6 +46,15 @@ if __name__ == "__main__" :
         print(" 1. for new account !")
         print(" 2. for balance withdrawal ")
         print(" 3. for money deposit")
+        # take input from the user
+        choice = int(input("Enter your choice : "))
+
+        # if choice for new account
+        if choice == 1 :
+            name = input("Enter your name : ")
+            ac_type = input("Enter account type  : ")
+
+
 
 
 
