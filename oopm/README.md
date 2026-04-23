@@ -399,3 +399,16 @@ we can add the instance variable even after __init__ or default constructor.
 
 1. if we create object of class D and call function show()  then whose function wll be execute first.
 2. we can see it by <class-name>.mro() function
+
+
+### Encapsulation
+
+1. Wrapping of data and methods into a single class.
+2. ex. capsule
+
+
+
+### Abstrction
+
+1. Process of hiding implementation and showing only important details.
+
