@@ -384,10 +384,12 @@ we can add the instance variable even after __init__ or default constructor.
 ```text
 10 + 10 = 20
 1 * 2 = 2
+1 == 1
 
 ```
 2. Extended work 
 ```text
 'ji' + "ok" = 'jiok'
 'j' * 2 = 'jj'
+'1' == '1'
 ```
