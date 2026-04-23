@@ -339,3 +339,40 @@ we can add the instance variable even after __init__ or default constructor.
 1. it can call parent class method 
 2. it can call parent class constructor `` super().method()`` or `` super().__init__()``
 3. super(). only refer to direct superclass 
+
+
+# Polymorphism
+1. same object different implementation.
+2. polymorphism is ability of an object to behave differently at different situations and different context.
+## Types of polymorphism
+
+| polymorphism  1 | polymorphism 2 | 
+|-----------------|----------------|
+| static          | dynamic        | 
+| early binding   | late binding   | 
+| Compile time    | runtime        | 
+
+1. Operator overloading.
+2. method overloading. python do not support method overloading.
+3. method overriding.
+
+
+
+## Method Overriding 
+
+1. Implementing new behavior of existing method of superclass in a subclass having same signature.
+2. method overriding help us to override and improving existing functionality.
+3. best practice of software development is not to modify existing class.
+
+### why do we use subclass.
+1. adding functionality .
+
+### Rules for method overriding.
+1. Python doesn't enforce strict signature method rules, python use conv
+   2. overridden method should be defined in both the classes or available in superclass and subclass
+3. method signature like method name and parameters should be same in both the superclass and sub class .
+4. overridden methods of both the class can have different behaviors,
+5. access specifiers like public, and protected and private is not strictly enforced.
+6. Method overriding always applies to instance methods. <br>
+7.  class methods and static method do not support method overriding.
+> Java and c++ has proper and strict and complex rules,  
