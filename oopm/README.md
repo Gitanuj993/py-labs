@@ -376,3 +376,18 @@ we can add the instance variable even after __init__ or default constructor.
 6. Method overriding always applies to instance methods. <br>
 7.  class methods and static method do not support method overriding.
 > Java and c++ has proper and strict and complex rules,  
+
+
+### Standard operators 
+`` + , - , * , / , = ``
+1. Basic work
+```text
+10 + 10 = 20
+1 * 2 = 2
+
+```
+2. Extended work 
+```text
+'ji' + "ok" = 'jiok'
+'j' * 2 = 'jj'
+```
