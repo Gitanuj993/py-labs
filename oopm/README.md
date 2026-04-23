@@ -427,3 +427,41 @@ we can add the instance variable even after __init__ or default constructor.
 - abstract methods are only declared in abstract class.
 - @abstractmethods should be overridden by subclasses.
 
+### Duck typing
+1. if it looks like a duck and walks like a duck then it is a duck
+```python
+
+class Dog :
+    def speak(self):
+        print("I am dog., i woof")
+
+class Cat :
+    def speak(self):
+        print("I am cat., i Meow")
+class Tiger :
+    def speak(self):
+        print("I am tiger., i Roar")
+
+class Human :
+    def speak(self):
+        print("I am human., i speaks frequently")
+
+
+def can_speak(obj) :
+    if obj.speak() :
+        # print( obj.speak() == 'True') # what doesn't work
+        obj.speak()
+
+
+
+if __name__ == '__main__' :
+    obj1 = Human()
+    obj2 = Cat()
+    obj3 = Tiger()
+    obj4 = Dog()
+
+    can_speak(obj1)
+    can_speak(obj2)
+    can_speak(obj3)
+    can_speak(obj4)
+```
