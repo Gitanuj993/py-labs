@@ -393,3 +393,9 @@ we can add the instance variable even after __init__ or default constructor.
 'j' * 2 = 'jj'
 '1' == '1'
 ```
+## Diamond problem and Method order resolution.
+
+<img src="msr.png" height="475" width="637">
+
+1. if we create object of class D and call function show()  then whose function wll be execute first.
+2. we can see it by <class-name>.mro() function
