@@ -411,4 +411,19 @@ we can add the instance variable even after __init__ or default constructor.
 ### Abstrction
 
 1. Process of hiding implementation and showing only important details.
+2. We can achieve True abstraction using importing ABC module @abstractmethod decorator.  
+3. Use abstraction when we want to define common functionality, that multiple subclasses must follow
+
+### - Abstract class
+### - abstract methods
+
+1. Abstract class :
+- those class which inherits abc class from the module abc.
+- we can not create objects or instances of abstract class.
+- abstract class force subclass to implement al the abstract methods.
+
+2. Abstract methods :
+- Those methods which are decorated with @abstractmethod
+- abstract methods are only declared in abstract class.
+- @abstractmethods should be overridden by subclasses.
 
