@@ -2,7 +2,7 @@
 Welcome AT
 Aim : To convert char to ascii code and vice-versa
 """
-#from projects.project1 import user_input
+#from lab18-projects.project1 import user_input
 
 
 def char2ascii_(char) : # what if we put more than one character in char
