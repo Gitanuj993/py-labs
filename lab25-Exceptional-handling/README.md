@@ -30,3 +30,9 @@ Base exception has three subclasses
 9. Indentation Error class
 10. Type Error class
 11. Syntax Error { This is an Error grammatical Error
+
+
+If an exception is raised , first python or python interpreter search for try and except block if not found then exception is handled by python itself,
+
+if we handle the exception then program will run normally as except is neutralized 
+else python take it on itself and determine exception type and then abnormally terminate the program
