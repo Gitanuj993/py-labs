@@ -30,6 +30,9 @@ It is widely used for its simple syntax and massive collection of libraries and 
 ## Exception Handling
 
 
+### Packages and modules
+> [!note]
+>  lab26-packages-modules
 
 
 
