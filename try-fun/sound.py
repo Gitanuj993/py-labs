@@ -15,7 +15,7 @@ and for complete tutorial or documentaton refer to :  https://gtts.readthedocs.i
 #for the results
 
 from gtts import gTTS
-text = " text in this column will be converted into speech!"
+text = " Hello r!"
 tts = gTTS(text=text, lang='en')
 
 tts.save("audio1.mp3")
