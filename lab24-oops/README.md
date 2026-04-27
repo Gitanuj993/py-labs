@@ -22,7 +22,7 @@ class Students :
     # variables :
     s_id = ""
     roll_no = 0
-    email = "ex@example.com"
+    email = "ex@example.comdlete"
 ```
 3. Class Members : who would be the members of a class., class contains following things
     - variables also known as data members.
