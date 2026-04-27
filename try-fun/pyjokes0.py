@@ -11,3 +11,4 @@ import pyjokes
 print(pyjokes.get_joke())
 
 # you will see different jokes each time you run code !
+exit = input("press enter to exit : ")
