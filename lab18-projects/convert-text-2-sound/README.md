@@ -14,6 +14,14 @@ procedure :
 
 # save the files in a folder to save the output and make sure that you are connected to the internet
 
+```text
+📦 gTTS package size
+Download size (from PyPI): ~20–30 KB
+Installed size: ~100–200 KB (approx.)
+
+So it’s a lightweight package—it doesn’t include heavy models because it uses Google’s online Text-to-Speech service instead of running locally.
+```
+
 
 ## Python code !
 ```python
