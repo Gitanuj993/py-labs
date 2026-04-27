@@ -5,7 +5,7 @@ aim : to convert text message into voices ;
 
 procedure :	
 first of all we install a module called 'gtts' using command below from the terminal
->> pkg install gtts
+>> pkg install gttsa
 all set then write this code into the script by hands avoid copy paste
 
 and for complete tutorial or documentaton refer to :  https://gtts.readthedocs.io/en/
