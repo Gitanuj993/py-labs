@@ -48,7 +48,15 @@ It is widely used for its simple syntax and massive collection of libraries and 
 2. it takes function as a parameter or function as an input.
 3. do some additional operations or work functionality perform.
 4. decorators return a new functions , without modifying the original function code.
-5. 
+
+<p>
+'@'property allows a method and attribute
+
+</p>
+
+### complex numbers
+
+
 
 
 ### Suggestion & Feedbacks
