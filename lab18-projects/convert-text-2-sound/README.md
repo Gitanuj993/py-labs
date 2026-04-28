@@ -19,7 +19,7 @@ procedure :
 Download size (from PyPI): ~20–30 KB
 Installed size: ~100–200 KB (approx.)
 
-So it’s a lightweight package—it doesn’t include heavy models because it uses Google’s online Text-to-Speech service instead of running locally.
+So it’s a lightweight package—it doesn’t include heavy models because it uses Google’s online Text-to-Speech service instead of running locally.c
 ```
 
 
