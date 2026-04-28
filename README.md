@@ -5,7 +5,7 @@ Books :
 <p> <h3> Let's learn and explore programming and its various use cases,
 python is one of the popular general purpose programming languages, <br><br>   
 It is widely used for its simple syntax and massive collection of libraries and modules amid run on top of c and c++ !
-</h3></p>
+</h3> </p>
 
 <div>
   <h2> We will explore Python from beginner to advance levels with simple to complex use cases.</h2>
@@ -36,8 +36,19 @@ It is widely used for its simple syntax and massive collection of libraries and 
 > [!note]
 >  lab26-packages-modules
 
+### Generators
+1. Generators are the special functions, do not use return keyword but return an generator object.
+2. Generator use a keyword 'yield' .
+3. generator return a single value at a time unlike other complex data types which return all the elements.
+4. next element is accessed by next(<generator_var>)
 
 
+### Decorators 
+1. decorator is an function.
+2. it takes function as a parameter or function as an input.
+3. do some additional operations or work functionality perform.
+4. decorators return a new functions , without modifying the original function code.
+5. 
 
 
 ### Suggestion & Feedbacks
@@ -45,5 +56,7 @@ It is widely used for its simple syntax and massive collection of libraries and 
 >[!note]
 > Kindly provide your valuable feedback and tips on
 > gleuser83+py@gmail.com
+> 
+
 
 
