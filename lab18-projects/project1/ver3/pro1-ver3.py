@@ -3,7 +3,6 @@ Welcome AT
 lab : project 1 ver3
 aim :	asking unique questions randomly from the user  and no question should repeat
 """
-from test import total_q
 
 #list of questions to be asked
 questions = [
