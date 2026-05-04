@@ -3,7 +3,7 @@ Welcome AT
 AIM :	to  know about strings data type 
 """
 """
-Theory :  string is a collection of characters , used to store text .
+Qans :  string is a collection of characters , used to store text .
 space is also included in  string
 """
 import sys
