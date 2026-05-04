@@ -9,6 +9,14 @@ unlike python lists , NumPy uses Homogenous data strucure , and implement arrays
 5. automatic math operations unlike python lists manual operations.
 6. NumPy is core library on which other libraries are depends on
 
+### Why NumPy over python Lists
+1. NumPy used vectorization.
+2. list used slow interpreted loops.
+3. python lists occupy more memory.
+4. NumPy arrays are more memory efficient.
+5. NumPy is faster because NumPy is written in c language.
+6. 
+
 ### Some libraries which works on top of NumPy 
 1. Pandas
 2. Matplot lib
@@ -19,11 +27,25 @@ unlike python lists , NumPy uses Homogenous data strucure , and implement arrays
 
 ### used in 
 1. Data Science
-2. image processing
+2. Image processing
 3. Simulation
 4. Finance
 5. AI/Ml
 
 ### Install NumPy in IDE 
 
-1. using pip : `` pip install numpy``
+1. using pip : `` pip install numpy`` in Code Editor's Terminal.
+
+
+### 
+1. 0D array : scalar arr
+    - eg. a = 23
+2. 1D array : vector
+    -
+3. 2D array : Matrix representation or table
+    -
+#### Tensor , ndarray , n dimensional array , dimension greater than 3
+4. 3D array : collection of 2D array ,
+    - 
+5. 4D array collection of 3D arrays
+
