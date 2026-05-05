@@ -9,6 +9,7 @@ while num // 10 != 0 :
 	print(digit)
 	num //= 10
 	print(num)
+# patch for logic
 sum = sum + num
 
 print(" sum of all the number of ",num ," is :	" , sum)
