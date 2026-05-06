@@ -49,3 +49,28 @@ unlike python lists , NumPy uses Homogenous data strucure , and implement arrays
     - 
 5. 4D array collection of 3D arrays
 
+
+
+
+# in numpy we can also specifiy or take multiple elements using more than one index .
+
+like if we had to take various elements
+a = [ 1,2,3,4]
+res = a[1] # done
+res = a[[0,2,3]] # not possible in python lists
+but possible in numpy.
+
+a = np.array([1,2,3,4,5])
+res = a[1]
+res = a[[1,3,2]]
+
+boolean indexing lets us filter elements in numpy array. based on condition. instead of indices like 0,1
+we can use boolean array which contains True and False to pick the values.
+
+a = np.array([1,2,3,4,5])
+res = a > 2  3 return a boolean list contaning True and false.
+
+
+
+### broadcasting
+
