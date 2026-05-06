@@ -152,7 +152,11 @@ filtering in 1D arrY  ,2D array
    - arrays of same shape 
    - array and scalars , scalars have single value.
    - ### mathematical operations between different shapes
-      - 
+      - np.sort(arr)
+      - np.sum(arr)
+      - np.std(arr)
+      - np.mean(arr)
+      - np.
 
 
 
