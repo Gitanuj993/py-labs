@@ -132,8 +132,27 @@ res = a[[1,3,2]]
 boolean indexing lets us filter elements in numpy array. based on condition. instead of indices like 0,1
 we can use boolean array which contains True and False to pick the values.
 
+
 a = np.array([1,2,3,4,5])
-res = a > 2  3 return a boolean list contaning True and false.
+res = a > 2 , it will return a boolean list contaning True and false.
+result will return an numpy array of type boolean on which True and False are contained based on the condition. ,boolean indexing.
+
+arr = np.array([1,2,3,4,5])
+res = arr[arr>=2] # it wil return actual output.
+it will return all the elements which satisfy the condition.
+or it stores only True values of simple conditions.
+
+filtering in 1D arrY  ,2D array
+
+
+### math operations.
+1. numpy provides fast and efficient , elements wise mathematical operations without using loops.
+2. loops are already in the internal c program .
+3. mathematical operation between
+   - arrays of same shape 
+   - array and scalars , scalars have single value.
+   - ### mathematical operations between different shapes
+      - 
 
 
 
