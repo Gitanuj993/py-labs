@@ -7,7 +7,6 @@ print(f" test1 is : {test1}")
 # our task is to reverse it
 store = ""
 for i in test1 :
-    print(i)
     store += i
 print(f" store is : {store}") # program to copy a string
 

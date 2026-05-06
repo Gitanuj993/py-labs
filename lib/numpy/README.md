@@ -15,7 +15,11 @@ unlike python lists , NumPy uses Homogenous data strucure , and implement arrays
 3. python lists occupy more memory.
 4. NumPy arrays are more memory efficient.
 5. NumPy is faster because NumPy is written in c language.
-6. 
+6. NumPy A C-backed numerical engine that lets Python pretend it’s fast. 
+7. Python alone = slow loops
+NumPy = vectorized operations executed in optimized C
+
+
 
 ### Some libraries which works on top of NumPy 
 1. Pandas
@@ -41,13 +45,74 @@ unlike python lists , NumPy uses Homogenous data strucure , and implement arrays
 1. 0D array : scalar arr
     - eg. a = 23
 2. 1D array : vector
-    -
+    - eg. [ 1,2,3,4 ]
+    - Collection 0D arrays
 3. 2D array : Matrix representation or table
-    -
+    - collection of 1D arrays in list of list type.
+    - eg. [ [1,2,3] , [4,5,6] ]
 #### Tensor , ndarray , n dimensional array , dimension greater than 3
 4. 3D array : collection of 2D array ,
-    - 
+    -  eg. [ [ [1,2,3], [4,5,6 ] ] ]
 5. 4D array collection of 3D arrays
+    - Collection of 3 D arrays.
+
+### Shapes 
+1. a = np.ones((1))
+- 1D array containig only 1 element.
+- also means 1 row, 1 coloumn, we can think of it, not actually it is.
+2. a = np.shaoe((10))
+- 1D array containing 10 elements.
+- also means 1 row 10 columns nit actuallly
+3. a = np.ones((2,3)
+- 2D array containing 2 rows 3 coloumn.
+- 
+4. a = np.ones((1,2,3))
+- 3D array containing 1 2D array which has two rows and 3 coloumns
+
+5. a = np.ones((2,3,4))
+- 3D array containing 2 2D arrays
+- each 2D array has 3 rows and 4 coloumns.
+
+
+6. Shapes are the metadat or data about the arrays.
+
+
+
+1. import numpy
+2. a = np.array([1,2,3,4])
+np.array is an method to create numpy array.
+
+#### properties or attributes  of numpy array
+a = np.array([1,2,3,4])
+- These are stored information not functions.
+1. a.ndim
+- tells number kd dimensions
+2. a.shape
+- tells the shape of array.
+3. a.size
+- tell size of the array
+4. a.dtype
+- tells tyoe of the stored data , as numpy array stores only homogenious data
+5. wants to look whole atributes see, dir(a)
+
+a.dtype → type of elements
+a.itemsize → bytes per element
+a.nbytes → total memory used
+
+a.base → original array (if it's a view)
+
+Real/Imaginary (for complex numbers)
+a.real
+a.imag
+Transpose shortcut
+a.T
+
+
+Slightly advanced (rare but powerful)
+a.flat → iterator over array
+a.ctypes → low-level C interface
+a.__array_interface__ → internal structure
+
 
 
 
