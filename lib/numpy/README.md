@@ -176,3 +176,86 @@ Broadcasting allows numpy to do math on arrays of different shapes automatically
 
 ### Errors in  broadcasting .
 1. incompatible shape error
+
+
+# Mathematica operations 
+```
+1. Basic Arithmetic Functions
+import numpy as np
+
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+np.add(a, b)        # [5 7 9]
+np.subtract(a, b)   # [-3 -3 -3]
+np.multiply(a, b)   # [4 10 18]
+np.divide(a, b)     # [0.25 0.4 0.5]
+np.power(a, 2)      # [1 4 9]
+```
+
+```text
+2. Trigonometric Functions
+x = np.array([0, np.pi/2, np.pi])
+
+np.sin(x)    # [0, 1, 0]
+np.cos(x)    # [1, 0, -1]
+np.tan(x)
+```
+```text
+3. Exponential & Logarithmic Functions
+x = np.array([1, 2, 3])
+
+np.exp(x)        # e^x
+np.log(x)        # natural log
+np.log10(x)      # base-10 log
+np.log2(x)       # base-2 log
+np.sqrt(x)       # square root
+```
+
+```text
+📏 4. Rounding Functions
+x = np.array([1.2, 2.7, -1.5])
+
+np.round(x)   # [1. 3. -2.]
+np.floor(x)   # [1. 2. -2.]
+np.ceil(x)    # [2. 3. -1.]
+np.trunc(x)   # [1. 2. -1.]
+```
+```text
+📈 5. Statistical Functions
+x = np.array([1, 2, 3, 4])
+
+np.mean(x)     # average
+np.median(x)
+np.std(x)      # standard deviation
+np.var(x)      # variance
+np.min(x)
+np.max(x)
+np.sum(x)
+```
+```text
+📍 6. Comparison Functions
+x = np.array([1, 2, 3])
+
+np.equal(x, 2)        # [False True False]
+np.greater(x, 2)      # [False False True]
+np.less_equal(x, 2)   # [True True False]
+```
+```text
+7. Aggregate & Cumulative Functions
+x = np.array([1, 2, 3, 4])
+
+np.cumsum(x)   # [1 3 6 10]
+np.cumprod(x)  # [1 2 6 24]
+```
+```text
+8. Linear Algebra Functions (via numpy.linalg)
+A = np.array([[1, 2], [3, 4]])
+
+np.linalg.det(A)    # determinant
+np.linalg.inv(A)    # inverse
+np.linalg.eig(A)    # eigenvalues/eigenvectors
+```
+
+
+### Linear algebra operatons.
