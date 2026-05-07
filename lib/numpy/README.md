@@ -168,3 +168,11 @@ Broadcasting allows numpy to do math on arrays of different shapes automatically
 1. Compare shapes from  right to left , right is the last dimension of array shape.
 2. Two dimensions are compatible if they are equal or one of them is 1. 
 3. 
+
+### Types of Broadcasting 
+1. scalar  broadcasting
+2. row vector broadcasting
+3. row vector broadcasting. 
+
+### Errors in  broadcasting .
+1. incompatible shape error
