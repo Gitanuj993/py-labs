@@ -151,14 +151,20 @@ filtering in 1D arrY  ,2D array
 3. mathematical operation between
    - arrays of same shape 
    - array and scalars , scalars have single value.
-   - ### mathematical operations between different shapes
-      - np.sort(arr)
-      - np.sum(arr)
-      - np.std(arr)
-      - np.mean(arr)
-      - np.
+ 
+### mathematical operations between different shapes can be done using broadcasting.
+   - np.sort(arr)
+   - np.sum(arr)
+   - np.std(arr)
+   - np.mean(arr)
 
 
 
 ### broadcasting
 
+Broadcasting allows numpy to do math on arrays of different shapes automatically by stretching smaller array to larger one.
+
+#### Rules of broadcasting in numpy
+1. Compare shapes from  right to left , right is the last dimension of array shape.
+2. Two dimensions are compatible if they are equal or one of them is 1. 
+3. 
