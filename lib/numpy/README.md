@@ -172,7 +172,7 @@ Broadcasting allows numpy to do math on arrays of different shapes automatically
 ### Types of Broadcasting 
 1. scalar  broadcasting
 2. row vector broadcasting
-3. row vector broadcasting. 
+3. column vector broadcasting. 
 
 ### Errors in  broadcasting .
 1. incompatible shape error
