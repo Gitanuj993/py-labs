@@ -257,5 +257,7 @@ np.linalg.inv(A)    # inverse
 np.linalg.eig(A)    # eigenvalues/eigenvectors
 ```
 
+np.reshape(arr,shape)
+np.delete(arr,index)
+np.delete(arr,fancy_index)
 
-### Linear algebra operatons.
