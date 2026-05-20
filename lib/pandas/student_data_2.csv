@@ -1,0 +1,21 @@
+Student_ID,Name,Age,Gender,Course,Marks,City
+101,Aarav Sharma,18,Male,BCA,85,Delhi
+102,Priya Verma,19,Female,B.Tech,92,Mumbai
+103,Rahul Mehta,20,Male,BSc,78,Pune
+104,Sneha Patel,18,Female,BCom,88,Indore
+105,Vikram Singh,21,Male,BCA,81,Jaipur
+106,Ananya Gupta,19,Female,BBA,95,Bhopal
+107,Rohan Das,20,Male,BSc,73,Surat
+108,Kavya Nair,18,Female,B.Tech,89,Chennai
+109,Arjun Rao,22,Male,BCA,90,Hyderabad
+110,Neha Joshi,19,Female,BCom,76,Lucknow
+111,Ishaan Kapoor,20,Male,BBA,84,Nagpur
+112,Pooja Yadav,21,Female,BSc,91,Patna
+113,Kunal Mishra,18,Male,B.Tech,79,Kolkata
+114,Meera Iyer,19,Female,BCA,87,Ahmedabad
+115,Aditya Jain,22,Male,BCom,82,Kanpur
+116,Simran Kaur,20,Female,BBA,93,Ranchi
+117,Harsh Vyas,21,Male,BSc,75,Noida
+118,Nidhi Saxena,18,Female,B.Tech,86,Nashik
+119,Yash Malhotra,19,Male,BCA,88,Vadodara
+120,Tanvi Desai,20,Female,BCom,80,Udaipur
