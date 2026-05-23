@@ -1,15 +1,14 @@
-# Type Hints
+# Type Hints : Specify variable data types.
 <h3>
-We know that programming languages like C++ or Java are not dynamicaly typed. 
-in this programming languages we have to specify data type of the variable and data structure.
-On the other hand programming languages like python which are dynamically typed which do not require data type to declear
-any variable or implement any data structure.
-
+We know that programming languages like C++ or Java are not dynamicaly typed . <br><br>
+in this programming languages we have to specify data type of the variable and data structure.<br>
+On the other hand programming languages like python which are dynamically typed which do not require data type to declear any variable or implement any data structure.
+<br><br>
 This dyanamically typed is an advantage in python but this benefits come with the flaws,
-as at any time someone can change the data type of any variable.
+as at any time someone can change the data type of any variable.<br><br>
 
-to provide knowledge of which data type should be used python provide type_hints which provide information to the developers.
-and this type_hints are used to validate data type.
+To provide knowledge of which data type should be used python provide type_hints which provide information to the developers.<br>
+type_hints are used to validate data type.
 </h3>
 
 
@@ -151,7 +150,7 @@ def sample_4 ( name : Any ) :
 ## Use cases of Type_hints.
 1. used to specify or provide hints of data type in python
 2. can be used in API to validate data.
-	-  pydint and typing packages align with FlaskAPI
+	-  pydint and typing packages align with FastAPI
 
 
 ## use of metadata in the type_hints.
