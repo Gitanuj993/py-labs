@@ -39,7 +39,7 @@ def sample_2( name : str , marks : list[int] , dict_1 : dict[str,int] ) :
 
 
 
-## Is type_hints is strict ?
+## Is type_hints strict ?
 From the name itself we can observe that this type_hints are used to provide hints, 
 type_hints are not strict , and does not give error even
 if another data type is used or passed 
