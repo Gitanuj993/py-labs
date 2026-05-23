@@ -1,7 +1,7 @@
 # Type Hints : Specify variable data types.
 <h3>
 We know that programming languages like C++ or Java are not dynamicaly typed . <br><br>
-in this programming languages we have to specify data type of the variable and data structure.<br>
+in this programming languages we have to specify data type of the variable and data structure.<br><br>
 On the other hand programming languages like python which are dynamically typed which do not require data type to declear any variable or implement any data structure.
 <br><br>
 This dyanamically typed is an advantage in python but this benefits come with the flaws,
