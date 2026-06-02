@@ -2,15 +2,15 @@
 
 checkout official website here : https://matplotlib.org/
 > [!note]
-> Matplotlib (Matplotlib: Visualization with Python) is used for data visualization like Seabern (seaborn: statistical data visualization)
+> Matplotlib (Matplotlib: Visualization with Python) is used for data visualization like Seaborn (seaborn: statistical data visualization)
 
-1. visualization of data , or analysis of data to get meaningfull insights.
+1. visualization of data , or analysis of data to get meaningful insights.
 2. Data presentation and representation.
 
 ## types of Analysis
 1. By number of variables.
     - Univariable analysis ( univariate)  To understand Distribution ( 1 column)
-    - Bivariable analysis ( biivariate) : two variables , used to understand relationship ( 1 data set)
+    - Bivariable analysis ( bivariate) : two variables , used to understand relationship ( 1 data set)
     - Multivariable analysis ( multivariate) : More than 2 variables ( 3 or 4 variables) , To understand patterns.
 
 #### Types of Graphs used to visualize data. for 
@@ -48,9 +48,16 @@ example : age and salary. ;
 
 ## Introduction to Visualization tools.
 > We need a library for that : matplotlib , seabern
+We extract trends and insights from the data.
+1. Charts : 
+2. Graphs : visualization of data in 1D (x-axis) , 2D ( x-axis , y-axis) and 3D ( x-axis & y-axis & z-axis)
 
+1. matplotlib gives full access to display customizations like colors , figures , axis , styling.
+2. matplot lib is a foundation library for data visualization.
 
-
+#### Seaborn :
+1. It makes plotting simpler and prettier with less jargon
+2. Seaborn is built on top of matplotlib
 
 
 
