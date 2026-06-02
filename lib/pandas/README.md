@@ -1,5 +1,8 @@
 # pandas 
 pandas is most powerful libraries in py.
+> [!note]
+>  ...
+
 
 Pandas used in Data Science , Data Manipulation , Data Analysis.
 
@@ -15,3 +18,5 @@ pandas provide two types of data structure
 3. String operation
 4. Duplicate Data Handling
 5. Mapping and Replacing of values.
+
+
